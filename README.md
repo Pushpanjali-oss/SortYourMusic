@@ -22,10 +22,10 @@ Install requirements for API server (optionally setup virtualenv first):
 
 Configure application keys for Echo Nest and Spotify, either export manually:
 
-    export SPOTIPY_CLIENT_ID=...
-    export SPOTIPY_CLIENT_SECRET=...
-    export SPOTIPY_REDIRECT_URI=http://...
-    export ECHO_NEST_API_KEY=...
+    export SPOTIPY_CLIENT_ID
+    export SPOTIPY_CLIENT_SECRET
+    export SPOTIPY_REDIRECT_URI=http://
+    export ECHO_NEST_API_KEY
 
 or copy projenv.example, modify it, then source it:
 
